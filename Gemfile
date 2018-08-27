@@ -58,5 +58,12 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+gem 'capistrano', '~> 3.7'
+gem 'capistrano-rails', '~> 1.1.0'
+gem 'capistrano-rbenv'
+gem 'capistrano-bundler'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-nginx'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
