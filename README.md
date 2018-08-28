@@ -2,7 +2,7 @@
 
 ## 저장소 설명
 
-SK 테크엑스 _'T아카데미'_ 에서 30차 토크온 세미나 _다양한 DevOps ToolChain의 활용방법(강사: 이재광 Devops Team Leader (주)엔비티)_라는 주제로 세미나를 진행했습니다.
+SK 테크엑스 _'T아카데미'_ 에서 30차 토크온 세미나 _다양한 DevOps ToolChain의 활용방법(강사: 이재광 Devops Team Leader (주)엔비티)_ 라는 주제로 세미나를 진행했습니다.
 해당 세미나를 수강하며 이용한 저장소입니다.  
 
 ## 어플리케이션 배포 실습 설명
@@ -10,10 +10,6 @@ SK 테크엑스 _'T아카데미'_ 에서 30차 토크온 세미나 _다양한 De
 * Google cloud platform에 Test용 Computer engine VM Instance를 생성
     - Ubuntu 16.04 LTS 버전의 jenkins-server/app-server
     - Firewall rules에서 Target tags를 동일하게 지정
-    ```sh
-    # gcloud 명령어를 이용해 jenkins 서버에 접속
-    $ gcloud compute ssh jenkins jenkins-instace-1
-    ```
 
 * Github 가입 및 테스트 앱 소스 저장을 위한 repository 생성(blog-app)
 
@@ -34,9 +30,9 @@ SK 테크엑스 _'T아카데미'_ 에서 30차 토크온 세미나 _다양한 De
 
 * 최종 완료 모습
 
-<h1 align="center">
-<img src="images/hello.png" alt="intro" width="300" height="150">
-<img src="images/jenkins.png" alt="intro" width="300" height="150">
+<h1 align="left">
+<img src="images/hello.png" alt="intro" width="300" height="180">
+<img src="images/jenkins.png" alt="intro" width="300" height="180">
 </h1>
 
 
