@@ -11,13 +11,33 @@ SK 테크엑스 _'T아카데미'_ 에서 30차 토크온 세미나 _다양한 De
     - Ubuntu 16.04 LTS 버전의 jenkins-server/app-server
     - Firewall rules에서 Target tags를 동일하게 지정
     ```sh
-    #gcloud 명령어를 이용해 jenkins 서버에 접속
-    gcloud compute ssh jenkins jenkins-instace-1
+    # gcloud 명령어를 이용해 jenkins 서버에 접속
+    $ gcloud compute ssh jenkins jenkins-instace-1
     ```
 
 * Github 가입 및 테스트 앱 소스 저장을 위한 repository 생성(blog-app)
 
 * Jenkins server에 Git, Jenkins 설치
+
+* Github 배포 테스트를 위한 Rails App 만들기 
+    - Ubuntu 16.04에 ruby 설치
+    - Ruby, rbenv 의존성 패키지, Nodejs, sqlite3 설치
+    - Rails app 만들기
+
+* Github 에 소스코드 푸쉬
+
+* App서비스를 위한 nginx + phusion passenger 설치
+
+*  Capistrano를 이용한 배포 자동화 구성하기
+
+* Jenkins를 이용한 배포 Job 만들기
+
+* 최종 완료 모습
+
+<h1 align="center">
+<img src="images/hello.png" alt="intro" width="300" height="150">
+<img src="images/jenkins.png" alt="intro" width="300" height="150">
+</h1>
 
 
 
